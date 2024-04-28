@@ -2,11 +2,38 @@
 
 For running this repo you have to install the ffmpeg. 
 
-Install the required library if there error:
+## Required library:
+``` python
+Pillow
+torch
+transformers
+streamlit
+scikit-learn
+tqdm
+numpy
+shutil
+requests
+zipfile
+```
+
 ```python
 ModuleNotFoundError: No module named "Module Name" 
 ```
+If the error still insist, then please install the required libraries
 
-The dataset and the model can be found on the following [link](https://drive.google.com/drive/folders/1SO8SKhJnU3hOD9xH-5VJgak8TU1CQr2Y?usp=sharing).
+# To run files
+[COMMAND]: for running cricket.ipynb
+```python
+jupyter notebook cricket.ipynb
+```
+
+[COMMAND]: for running fanplayiot.py
+```python
+streamlit run fanplayiot.py
+```
+
+# Interface
+
+![interface](interface.png)
 
 The code is compatible to run on cpu as well as on gpu.
