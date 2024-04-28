@@ -37,3 +37,5 @@ streamlit run fanplayiot.py
 ![interface](interface.png)
 
 The code is compatible to run on cpu as well as on gpu.
+
+Thanks to [Anik Sen](https://github.com/ascuet/cricshot10) for providing dataset.
